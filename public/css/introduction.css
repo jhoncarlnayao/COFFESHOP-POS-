@@ -1,0 +1,23 @@
+body{
+    background-color: #F8E6E8;
+    overflow: hidden;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.biglogo{
+    animation: fadeIn 1s ease-in 0.20s forwards;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
