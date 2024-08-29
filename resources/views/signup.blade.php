@@ -29,6 +29,8 @@
                 <h1>Sign up</h1>
             </div>
             
+            <form action="{{ route('register') }}" method="POST" class="signup-form">
+                @csrf
             <div class="user-inputs">
                 <div class="firstname-text">First name</div>
                 <div class="middlename-text">Middle name</div>
@@ -50,8 +52,9 @@
                 <div class="password-text">Password</div>
             </div>
             <div class="signup-button-position">
-                <div class="signup-button"> <button>Sign up</button></div>
+                <button type="submit" class="signup-button">Sign up</button>
             </div>
+        </form>
         </div>
     </div>
     
