@@ -15,9 +15,6 @@ use App\Http\Controllers\UserController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 // Route::get('/dashboard', function () {
 //     return view('dashboard');
@@ -34,7 +31,7 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 });
 
-Route::get('/intro', function () {
+Route::get('/', function () {
     return view('intro');
 });
 
@@ -48,3 +45,5 @@ Route::get('/login', function () {
 
 
 Route::post('/register', [UserController::class, 'register_account'])->name('register');
+
+Route::get('/login', [UserController::class, 'login_account'])->name('login');

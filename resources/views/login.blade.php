@@ -47,6 +47,8 @@
                 </div>
             </div>
 
+            <form action="{{ route('login') }}" method="POST">
+                @csrf
             <div class="email-text">Email Address</div>
             <div class="password-text">Password</div>
             <div class="forgot-password">Forgot Password ?</div>
@@ -56,10 +58,12 @@
             </div>
 
             <div class="signin-button-position">
-                <div class="signin-button" id="signin-button"> <button>Sign in</button></div>
+                <div class="signin-button" id="signin-button"> <button type="submit">Sign in</button></div>
+
             </div>
         </div>
     </div>
+</form>
     <script src="{{ asset('js/login.js') }}"></script>
 </body>
 </html>

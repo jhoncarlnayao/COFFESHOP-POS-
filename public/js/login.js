@@ -7,15 +7,15 @@ var password = document.getElementById("password");
 //         alert("Login Successful");
 //         // window.location.href = "home.html";
 //     }else {
-//         alert("Invalid Email or Password");
+//         alert("Invalid Email or Password");  
 //     }
 //     }
 
-submit = document.getElementById("signin-button").onclick = function() {
-    if (email.value == "test@gmail.com" && password.value == "test") {
-        alert("Login Successful");
-        // window.location.href = "home.html";
-    }else {
-        alert("Invalid Email or Password");
-    }
-}
+// submit = document.getElementById("signin-button").onclick = function() {
+//     if (email.value == "test@gmail.com" && password.value == "test") {
+//         alert("Login Successful");
+//         window.location.href = "home.html";
+//     }else {
+//         alert("Invalid Email or Password");
+//     }
+// }
