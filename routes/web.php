@@ -1,9 +1,8 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\RegisterUsers;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -47,6 +46,5 @@ Route::get('/login', function () {
     return view('login');
 })->name('login');
 
-//$ FOR REGISTER USER AREA
-Route::post('/register', [RegisterUsers::class, 'register'])->name('register');
 
+Route::post('/register', [UserController::class, 'register_account'])->name('register');
