@@ -1,0 +1,413 @@
+body {
+    margin: auto;
+    padding: 0;
+    background-color: #F8E6E8;
+    overflow: hidden;
+}
+
+
+/*$ NAVBAR AREA HERE  */
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 130px;
+    padding: 0 50px;
+}
+
+.container1-nav {
+    display: flex;
+    justify-content: start;
+    position: relative;
+    bottom: 1rem;
+}
+
+.back {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 3.4rem;
+    right: 0.5rem;
+}
+
+nav h1 {
+    color: #3A3A3A;
+    font-family: "Inter";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -1px;
+    position: relative;
+    bottom: 0.7rem;
+}
+
+
+.group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+}
+
+.input {
+    width: 500px;
+    height: 50px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+}
+
+.input::placeholder {
+    color: #9e9ea7;
+}
+
+.input:focus,
+input:hover {
+    outline: none;
+    border-color: rgba(234, 76, 137, 0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+}
+
+.search-container {
+    position: relative;
+    left: 24pc;
+    top: 2pc;
+}
+
+.customer-cart {
+    background-color: #f3f3f4;
+    width: 55px;
+    height: 50px;
+    border-radius: 18px;
+    margin-right: 53pc;
+    position: relative;
+    top: 32px;
+    transition: .3s;
+    cursor: pointer;
+    
+}
+
+.customer-cart:hover {
+    outline: none;
+    border-color: rgba(234, 76, 137, 0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.customer-cart img {
+    position: relative;
+    top: 11px;
+    left: 11px;
+}
+
+.customer-cart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.search-cart-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    right: 60px;
+}
+
+.searchbar-cart {
+    position: relative;
+    bottom: 10.8rem;
+    left: 45rem;
+}
+
+/*$ END OF NAV BAR */
+
+/*$ MENU CARDS  */
+
+.menucards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 7rem;
+    right: 25.7rem;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+    width: 130px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFFDFD;
+    box-shadow: -8px 7px 24px 0px rgba(0, 0, 0, 0.25);
+    margin-right: 1.5rem;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: "Inter";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.45px;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover,
+.card6:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: -8px 7px 24px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card1 img,
+.card2 img,
+.card3 img,
+.card4 img,
+.card5 img,
+.card6 img {
+   position: relative;
+   top: 5px;
+}
+
+
+/* $ END OF MENU CARDS */
+
+
+.selection-text h1{
+    color: #3A3A3A;
+    font-family: "Inter";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    position: relative;
+    left: 5.5rem;
+    top: 10rem;
+}
+
+.cards-selection-container{
+    position: relative;
+    top: 10rem;
+    left: 5rem;
+    flex-direction: row;
+    display: flex;
+}
+
+.cards-selection-container-sandwich{
+    position: relative;
+    top: 10rem;
+    left: 5rem;
+    flex-direction: row;
+    display: flex;
+}
+
+.cards-selection-veganmeal{
+    display: none;
+}
+
+.cards-selection-sandwich{
+    display: none;
+}
+
+.card-food1, .card-food2, .card-food3, .card-food4, .card-food5, .card-food6{
+    width: 380px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.card-food1-sandwich, .card-food2-sandwich, .card-food3-sandwich, .card-food4-sandwich, .card-food5, .card-food6{
+    width: 380px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.food-img{
+    width: 330px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background-image: url("assets/food1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.food-name {
+    color: #000;
+    font-family: "Inter";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: normal;
+    letter-spacing: 0.42px;
+}
+
+.food-description{
+    color: #868686;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.39px;
+}
+
+.price{
+    color: #000;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.45px;
+}
+
+.mid-line{
+  width: 2px;
+  height: 20px;
+  border-radius: 15px;
+  background: #221A1A;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.price-stocks p {
+    color: #9B9B9B;
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.price-stocks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.card-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.view{
+    width: 140px;
+    height: 40px;
+    flex-shrink: 0; 
+    border-radius: 5px;
+    background: #ffea75;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.view h1 {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.16px;
+  }
+
+.add-cart{
+    width: 140px;
+    height: 40px;
+    flex-shrink: 0; 
+    border-radius: 5px;
+    background: #72F370;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.mid-line2{
+    width: 2px;
+    height: 20px;
+    border-radius: 15px;
+    background: #FFF;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .add-cart h1 {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -0.16px;
+  }
+
+/* $END OF SELECTION */
+
+/*! FOCUS CARD WHEN I CLICK THE CARD TO BROWSE FOOD OR DRINKS */
+.card-focus{ 
+    background-color: lightgreen;
+    transform: scale(1.1);
+}
+/*! FOCUS CARD WHEN I CLICK THE CARD TO BROWSE FOOD OR DRINKS */
+
+

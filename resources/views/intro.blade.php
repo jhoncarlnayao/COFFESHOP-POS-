@@ -19,7 +19,7 @@
   <script>
   
     setTimeout(function() {
-        window.location.href = "{{ url('login') }}";
+        window.location.href = "{{ url('/loginn') }}";
     }, 5000);
 </script>
 </body>

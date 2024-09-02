@@ -26,10 +26,6 @@ use App\Http\Controllers\UserController;
 //     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 // });
 
-// require __DIR__.'/auth.php';
-Route::get('/dashboard', function () {
-    return view('dashboard');
-});
 
 Route::get('/', function () {
     return view('intro');
@@ -39,9 +35,16 @@ Route::get('/signup', function () {
     return view('signup');
 });
 
-Route::get('/login', function () {
+Route::get('/loginn', function () {
     return view('login');
-})->name('login');
+});
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
+
+
+
 
 
 Route::post('/register', [UserController::class, 'register_account'])->name('register');
