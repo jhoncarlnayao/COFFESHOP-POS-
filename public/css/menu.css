@@ -217,7 +217,13 @@ input:hover {
     top: 10rem;
 }
 
-.cards-selection-container{
+.cards-selection-container, 
+.cards-selection-container-sandwich, 
+.cards-selection-container-freshfruits, 
+.cards-selection-container-organicjuice, 
+.cards-selection-container-veganmeal,
+.cards-selection-container-milktea,
+.cards-selection-container-tea{
     position: relative;
     top: 10rem;
     left: 5rem;
@@ -225,19 +231,12 @@ input:hover {
     display: flex;
 }
 
-.cards-selection-container-sandwich{
-    position: relative;
-    top: 10rem;
-    left: 5rem;
-    flex-direction: row;
-    display: flex;
-}
-
-.cards-selection-veganmeal{
-    display: none;
-}
-
-.cards-selection-sandwich{
+.cards-selection-veganmeal, 
+.cards-selection-sandwich,
+.cards-selection-freshfruits, 
+.cards-selection-organicjuice,
+.cards-selection-milktea,
+.cards-selection-tea{
     display: none;
 }
 
@@ -268,6 +267,62 @@ input:hover {
     flex-direction: column;
     margin-right: 50px;
 }
+
+.card-food1-freshfruits, .card-food2-freshfruits, .card-food3-freshfruits, .card-food4-freshfruits, .card-food5-freshfruits, .card-food6-freshfruits{
+    width: 380px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.card-food1-organicjuice, .card-food2-organicjuice, .card-food3-organicjuice, .card-food4-organicjuice, .card-food5-organicjuice, .card-food6-organicjuice{
+    width: 380px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.card-food1-milktea, .card-food2-milktea, .card-food3-milktea, .card-food4-milktea, .card-food5-milktea, .card-food6-milktea{
+    width: 380px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.card-food1-tea, .card-food2-tea, .card-food3-tea, .card-food4-tea{
+    width: 380px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
 
 .food-img{
     width: 330px;
@@ -401,6 +456,91 @@ input:hover {
     letter-spacing: -0.16px;
   }
 
+
+/*! VEGAN FOOD */
+  .food-img2{
+    background-image: url("assets/food2.jpg");
+  }
+  .food-img3{
+    background-image: url("assets/food3.jpg");
+  }
+  .food-img4{
+    background-image: url("assets/food4.jpg");
+  }
+
+/* !SANDWICH */
+
+.sandwich-img1{
+    background-image: url("assets/sandwich1.jpg");
+}
+.sandwich-img2{
+    background-image: url("assets/sandwich2.jpg");
+}
+.sandwich-img3{
+    background-image: url("assets/sandwich3.jpg");
+}
+.sandwich-img4{
+    background-image: url("assets/sandwich4.jpg");
+}
+
+/* !FRESH FRUITS */
+
+.freshfruits-img1{
+    background-image: url("assets/fruit1.jpg");
+}
+.freshfruits-img2{
+    background-image: url("assets/fruit2.jpg");
+}
+.freshfruits-img3{
+    background-image: url("assets/fruit3.jpg");
+}
+.freshfruits-img4{
+    background-image: url("assets/fruit4.jpg");
+}
+
+/* !ORGRANIC JUICE */
+
+.organicjuice-img1 {
+    background-image: url("assets/juice1.jpg");
+}
+.organicjuice-img2 {
+    background-image: url("assets/juice2.jpg");
+}
+.organicjuice-img3 {
+    background-image: url("assets/juice3.jpg");
+}
+.organicjuice-img4 {
+    background-image: url("assets/juice4.jpg");
+}
+
+/* !MILK TEA */
+.milktea-img1{
+    background-image: url("assets/milktea1.jpg");
+}
+.milktea-img2{
+    background-image: url("assets/milktea2.jpg");
+}
+.milktea-img3{
+    background-image: url("assets/milktea3.jpg");
+}
+.milktea-img4{
+    background-image: url("assets/milktea4.jpg");
+}
+
+/* !IMPORTED TEA */
+
+.tea-img1 {
+    background-image: url("assets/tea1.jpg");
+}
+.tea-img2 {
+    background-image: url("assets/tea2.jpg");
+}
+.tea-img3 {
+    background-image: url("assets/tea3.jpg");
+}
+.tea-img4 {
+    background-image: url("assets/tea4.jpg");
+}
 /* $END OF SELECTION */
 
 /*! FOCUS CARD WHEN I CLICK THE CARD TO BROWSE FOOD OR DRINKS */

@@ -78,7 +78,7 @@
     <div class="cards-selection-veganmeal">
         <div class="cards-selection-container">
             <div class="card-food1">
-                <div class="food-img"></div>
+                <div class="food-img food-img1"></div>
                 <p class="food-name">Vegan Cauliflower Gyros</p>
                 <p class="food-description">Healthy Vegan Meal</p>
                 <div class="price-stocks">
@@ -99,7 +99,7 @@
             </div>
 
             <div class="card-food2">
-                <div class="food-img"></div>
+                <div class="food-img food-img2"></div>
                 <p class="food-name">Vegan Cauliflower Gyros</p>
                 <p class="food-description">Healthy Vegan Meal</p>
                 <div class="price-stocks">
@@ -121,7 +121,7 @@
 
 
             <div class="card-food3">
-                <div class="food-img"></div>
+                <div class="food-img food-img3"></div>
                 <p class="food-name">Vegan Cauliflower Gyros</p>
                 <p class="food-description">Healthy Vegan Meal</p>
                 <div class="price-stocks">
@@ -142,7 +142,7 @@
             </div>
 
             <div class="card-food4">
-                <div class="food-img"></div>
+                <div class="food-img food-img4"></div>
                 <p class="food-name">Vegan Cauliflower Gyros</p>
                 <p class="food-description">Healthy Vegan Meal</p>
                 <div class="price-stocks">
@@ -167,7 +167,7 @@
     <div class="cards-selection-sandwich">
         <div class="cards-selection-container-sandwich">
             <div class="card-food1-sandwich">
-                <div class="food-img"></div>
+                <div class="food-img sandwich-img1"></div>
                 <p class="food-name">Vegan Cauliflower Gyros</p>
                 <p class="food-description">Healthy Vegan Meal</p>
                 <div class="price-stocks">
@@ -187,7 +187,7 @@
                 </div>
             </div>
             <div class="card-food2-sandwich">
-                <div class="food-img"></div>
+                <div class="food-img sandwich-img2"></div>
                 <p class="food-name">Vegan Cauliflower Gyros</p>
                 <p class="food-description">Healthy Vegan Meal</p>
                 <div class="price-stocks">
@@ -207,7 +207,7 @@
                 </div>
             </div>
             <div class="card-food3-sandwich">
-                <div class="food-img"></div>
+                <div class="food-img sandwich-img3"></div>
                 <p class="food-name">Vegan Cauliflower Gyros</p>
                 <p class="food-description">Healthy Vegan Meal</p>
                 <div class="price-stocks">
@@ -227,7 +227,7 @@
                 </div>
             </div>
             <div class="card-food4-sandwich">
-                <div class="food-img"></div>
+                <div class="food-img sandwich-img4"></div>
                 <p class="food-name">Vegan Cauliflower Gyros</p>
                 <p class="food-description">Healthy Vegan Meal</p>
                 <div class="price-stocks">
@@ -248,6 +248,348 @@
             </div>
         </div>
     </div>
+
+    <div class="cards-selection-freshfruits">
+        <div class="cards-selection-container-freshfruits">
+            <div class="card-food1-freshfruits">
+                <div class="food-img freshfruits-img1"></div>
+                <p class="food-name">Vegan Cauliflower Gyros</p>
+                <p class="food-description">Healthy Vegan Meal</p>
+                <div class="price-stocks">
+                    <h1 class="price">₱180</h1>
+                    <div class="mid-line"></div>
+                    <p class="stocks">Stocks: 20</p>
+                </div>
+                <div class="card-buttons">
+                    <div class="view">
+                        <h1>VIEW</h1>
+                    </div>
+                    <div class="add-cart">
+                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <div class="mid-line2"></div>
+                        <h1>ADD TO CART</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="card-food2-freshfruits">
+                <div class="food-img freshfruits-img2"></div>
+                <p class="food-name">Vegan Cauliflower Gyros</p>
+                <p class="food-description">Healthy Vegan Meal</p>
+                <div class="price-stocks">
+                    <h1 class="price">₱180</h1>
+                    <div class="mid-line"></div>
+                    <p class="stocks">Stocks: 20</p>
+                </div>
+                <div class="card-buttons">
+                    <div class="view">
+                        <h1>VIEW</h1>
+                    </div>
+                    <div class="add-cart">
+                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <div class="mid-line2"></div>
+                        <h1>ADD TO CART</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="card-food3-freshfruits">
+                <div class="food-img freshfruits-img3"></div>
+                <p class="food-name">Vegan Cauliflower Gyros</p>
+                <p class="food-description">Healthy Vegan Meal</p>
+                <div class="price-stocks">
+                    <h1 class="price">₱180</h1>
+                    <div class="mid-line"></div>
+                    <p class="stocks">Stocks: 20</p>
+                </div>
+                <div class="card-buttons">
+                    <div class="view">
+                        <h1>VIEW</h1>
+                    </div>
+                    <div class="add-cart">
+                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <div class="mid-line2"></div>
+                        <h1>ADD TO CART</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="card-food4-freshfruits">
+                <div class="food-img freshfruits-img4"></div>
+                <p class="food-name">Vegan Cauliflower Gyros</p>
+                <p class="food-description">Healthy Vegan Meal</p>
+                <div class="price-stocks">
+                    <h1 class="price">₱180</h1>
+                    <div class="mid-line"></div>
+                    <p class="stocks">Stocks: 20</p>
+                </div>
+                <div class="card-buttons">
+                    <div class="view">
+                        <h1>VIEW</h1>
+                    </div>
+                    <div class="add-cart">
+                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <div class="mid-line2"></div>
+                        <h1>ADD TO CART</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cards-selection-organicjuice">
+        <div class="cards-selection-container-organicjuice">
+            <div class="card-food1-organicjuice">
+                <div class="food-img organicjuice-img1"></div>
+                <p class="food-name">Vegan Cauliflower Gyros</p>
+                <p class="food-description">Healthy Vegan Meal</p>
+                <div class="price-stocks">
+                    <h1 class="price">₱180</h1>
+                    <div class="mid-line"></div>
+                    <p class="stocks">Stocks: 20</p>
+                </div>
+                <div class="card-buttons">
+                    <div class="view">
+                        <h1>VIEW</h1>
+                    </div>
+                    <div class="add-cart">
+                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <div class="mid-line2"></div>
+                        <h1>ADD TO CART</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="card-food2-organicjuice">
+                <div class="food-img organicjuice-img2"></div>
+                <p class="food-name">Vegan Cauliflower Gyros</p>
+                <p class="food-description">Healthy Vegan Meal</p>
+                <div class="price-stocks">
+                    <h1 class="price">₱180</h1>
+                    <div class="mid-line"></div>
+                    <p class="stocks">Stocks: 20</p>
+                </div>
+                <div class="card-buttons">
+                    <div class="view">
+                        <h1>VIEW</h1>
+                    </div>
+                    <div class="add-cart">
+                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <div class="mid-line2"></div>
+                        <h1>ADD TO CART</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="card-food3-organicjuice">
+                <div class="food-img organicjuice-img3"></div>
+                <p class="food-name">Vegan Cauliflower Gyros</p>
+                <p class="food-description">Healthy Vegan Meal</p>
+                <div class="price-stocks">
+                    <h1 class="price">₱180</h1>
+                    <div class="mid-line"></div>
+                    <p class="stocks">Stocks: 20</p>
+                </div>
+                <div class="card-buttons">
+                    <div class="view">
+                        <h1>VIEW</h1>
+                    </div>
+                    <div class="add-cart">
+                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <div class="mid-line2"></div>
+                        <h1>ADD TO CART</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="card-food4-organicjuice">
+                <div class="food-img organicjuice-img4"></div>
+                <p class="food-name">Vegan Cauliflower Gyros</p>
+                <p class="food-description">Healthy Vegan Meal</p>
+                <div class="price-stocks">
+                    <h1 class="price">₱180</h1>
+                    <div class="mid-line"></div>
+                    <p class="stocks">Stocks: 20</p>
+                </div>
+                <div class="card-buttons">
+                    <div class="view">
+                        <h1>VIEW</h1>
+                    </div>
+                    <div class="add-cart">
+                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <div class="mid-line2"></div>
+                        <h1>ADD TO CART</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cards-selection-milktea">
+        <div class="cards-selection-container-milktea">
+            <div class="card-food1-milktea">
+                <div class="food-img milktea-img1"></div>
+                <p class="food-name">Vegan Cauliflower Gyros</p>
+                <p class="food-description">Healthy Vegan Meal</p>
+                <div class="price-stocks">
+                    <h1 class="price">₱180</h1>
+                    <div class="mid-line"></div>
+                    <p class="stocks">Stocks: 20</p>
+                </div>
+                <div class="card-buttons">
+                    <div class="view">
+                        <h1>VIEW</h1>
+                    </div>
+                    <div class="add-cart">
+                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <div class="mid-line2"></div>
+                        <h1>ADD TO CART</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="card-food2-milktea">
+                <div class="food-img milktea-img2"></div>
+                <p class="food-name">Vegan Cauliflower Gyros</p>
+                <p class="food-description">Healthy Vegan Meal</p>
+                <div class="price-stocks">
+                    <h1 class="price">₱180</h1>
+                    <div class="mid-line"></div>
+                    <p class="stocks">Stocks: 20</p>
+                </div>
+                <div class="card-buttons">
+                    <div class="view">
+                        <h1>VIEW</h1>
+                    </div>
+                    <div class="add-cart">
+                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <div class="mid-line2"></div>
+                        <h1>ADD TO CART</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="card-food3-milktea">
+                <div class="food-img milktea-img3"></div>
+                <p class="food-name">Vegan Cauliflower Gyros</p>
+                <p class="food-description">Healthy Vegan Meal</p>
+                <div class="price-stocks">
+                    <h1 class="price">₱180</h1>
+                    <div class="mid-line"></div>
+                    <p class="stocks">Stocks: 20</p>
+                </div>
+                <div class="card-buttons">
+                    <div class="view">
+                        <h1>VIEW</h1>
+                    </div>
+                    <div class="add-cart">
+                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <div class="mid-line2"></div>
+                        <h1>ADD TO CART</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="card-food4-milktea">
+                <div class="food-img milktea-img4"></div>
+                <p class="food-name">Vegan Cauliflower Gyros</p>
+                <p class="food-description">Healthy Vegan Meal</p>
+                <div class="price-stocks">
+                    <h1 class="price">₱180</h1>
+                    <div class="mid-line"></div>
+                    <p class="stocks">Stocks: 20</p>
+                </div>
+                <div class="card-buttons">
+                    <div class="view">
+                        <h1>VIEW</h1>
+                    </div>
+                    <div class="add-cart">
+                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <div class="mid-line2"></div>
+                        <h1>ADD TO CART</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="cards-selection-tea">
+        <div class="cards-selection-container-tea">
+            <div class="card-food1-tea">
+                <div class="food-img tea-img1"></div>
+                <p class="food-name">Vegan Cauliflower Gyros</p>
+                <p class="food-description">Healthy Vegan Meal</p>
+                <div class="price-stocks">
+                    <h1 class="price">₱180</h1>
+                    <div class="mid-line"></div>
+                    <p class="stocks">Stocks: 20</p>
+                </div>
+                <div class="card-buttons">
+                    <div class="view">
+                        <h1>VIEW</h1>
+                    </div>
+                    <div class="add-cart">
+                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <div class="mid-line2"></div>
+                        <h1>ADD TO CART</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="card-food2-tea">
+                <div class="food-img tea-img2"></div>
+                <p class="food-name">Vegan Cauliflower Gyros</p>
+                <p class="food-description">Healthy Vegan Meal</p>
+                <div class="price-stocks">
+                    <h1 class="price">₱180</h1>
+                    <div class="mid-line"></div>
+                    <p class="stocks">Stocks: 20</p>
+                </div>
+                <div class="card-buttons">
+                    <div class="view">
+                        <h1>VIEW</h1>
+                    </div>
+                    <div class="add-cart">
+                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <div class="mid-line2"></div>
+                        <h1>ADD TO CART</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="card-food3-tea">
+                <div class="food-img tea-img3"></div>
+                <p class="food-name">Vegan Cauliflower Gyros</p>
+                <p class="food-description">Healthy Vegan Meal</p>
+                <div class="price-stocks">
+                    <h1 class="price">₱180</h1>
+                    <div class="mid-line"></div>
+                    <p class="stocks">Stocks: 20</p>
+                </div>
+                <div class="card-buttons">
+                    <div class="view">
+                        <h1>VIEW</h1>
+                    </div>
+                    <div class="add-cart">
+                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <div class="mid-line2"></div>
+                        <h1>ADD TO CART</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="card-food4-tea">
+                <div class="food-img tea-img4"></div>
+                <p class="food-name">Vegan Cauliflower Gyros</p>
+                <p class="food-description">Healthy Vegan Meal</p>
+                <div class="price-stocks">
+                    <h1 class="price">₱180</h1>
+                    <div class="mid-line"></div>
+                    <p class="stocks">Stocks: 20</p>
+                </div>
+                <div class="card-buttons">
+                    <div class="view">
+                        <h1>VIEW</h1>
+                    </div>
+                    <div class="add-cart">
+                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <div class="mid-line2"></div>
+                        <h1>ADD TO CART</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
 </body>
