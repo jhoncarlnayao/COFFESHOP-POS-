@@ -43,6 +43,10 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 });
 
+Route::get('/menu', function () {
+    return view('menu');
+});
+
 
 
 

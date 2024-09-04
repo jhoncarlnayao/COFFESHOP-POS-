@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="menu.css">
+
+    <link rel="stylesheet" href="{{ asset('css/menu.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
@@ -14,7 +15,8 @@
 <body>
     <nav>
         <div class="container1-nav">
-            <img src="assets/angle-left (1).png" alt="" class="back">
+
+            <img src="{{ asset('images/angle-left (1).png') }}" alt="" class="back">
             <h1>Food and Drinks</h1>
         </div>
         <div class="searchbar-cart">
@@ -33,8 +35,8 @@
                 </div>
                 <div class="customer-cart-container">
                     <div class="customer-cart">
-                        <!-- <img src="{{ asset('images/Shopping Cart.png') }}" alt=""> -->
-                        <img src="assets/Shopping Cart.png" alt="">
+                    <img src="{{ asset('images/Shopping Cart.png') }}" alt=""> 
+                        {{-- <img src="assets/Shopping Cart.png" alt=""> --}}
                     </div>
                 </div>
             </div>
@@ -44,27 +46,27 @@
     <div class="menu-cards-selection">
         <div class="menucards-container">
             <div class="card1">
-                <img src="assets/salad 1.png" alt="">
+                <img src="{{ asset('images/salad 1.png') }}" alt=""> 
                 <p>Vegan Meal</p>
             </div>
             <div class="card2">
-                <img src="assets/sandwich 1.png" alt="">
+                <img src="{{ asset('images/sandwich 1.png') }}" alt=""> 
                 <p>Sandwich</p>
             </div>
             <div class="card3">
-                <img src="assets/fruit 1.png" alt="">
+                <img src="{{ asset('images/fruit 1.png') }}" alt=""> 
                 <p>Fresh Fruits</p>
             </div>
             <div class="card4">
-                <img src="assets/juice 1.png" alt="">
+                <img src="{{ asset('images/juice 1.png') }}" alt=""> 
                 <p>Organic Juices</p>
             </div>
             <div class="card5">
-                <img src="assets/bubble-tea (1) 1.png" alt="">
+                <img src="{{ asset('images/bubble-tea (1) 1.png') }}" alt=""> 
                 <p>Milk Tea</p>
             </div>
             <div class="card6">
-                <img src="assets/chocolate 1.png" alt="">
+                <img src="{{ asset('images/chocolate 1.png') }}" alt=""> 
                 <p>Imported Tea</p>
             </div>
         </div>
@@ -91,7 +93,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -112,7 +114,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -134,7 +136,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -155,7 +157,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -180,7 +182,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -200,7 +202,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -220,7 +222,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -240,7 +242,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -265,7 +267,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -285,7 +287,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -305,7 +307,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -325,7 +327,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -350,7 +352,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -370,7 +372,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -390,7 +392,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -410,7 +412,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -435,7 +437,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -455,7 +457,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -475,7 +477,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -495,7 +497,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -521,7 +523,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -541,7 +543,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -561,7 +563,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -581,7 +583,7 @@
                         <h1>VIEW</h1>
                     </div>
                     <div class="add-cart">
-                        <img src="assets/shopping-cart-add.png" alt="" style="width: 23px; height: 23px">
+                        <img src="{{ asset('images/shopping-cart-add.png') }}" alt="" style="width: 23px; height: 23px">
                         <div class="mid-line2"></div>
                         <h1>ADD TO CART</h1>
                     </div>
@@ -593,6 +595,6 @@
 
 
 </body>
-<script src="menu.js"></script>
+<script src="{{ asset('js/menu.js') }}"></script>
 
 </html>
