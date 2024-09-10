@@ -31,7 +31,7 @@ Route::get('/', function () {
     return view('intro');
 });
 
-Route::get('/signup', function () {
+Route::get('/register', function () {
     return view('signup');
 });
 
@@ -45,6 +45,14 @@ Route::get('/dashboard', function () {
 
 Route::get('/menu', function () {
     return view('menu');
+});
+
+Route::get('/menu2', function () {
+    return view('menu2');
+});
+
+Route::get('/test', function () {
+    return view('test');
 });
 
 

@@ -15,7 +15,8 @@
 
     <nav>
         <div class="container1-nav">
-            <img src="assets/angle-left (1).png" alt="" class="back">
+            <img src="{{ asset('img-coffee/angle-left (1).png') }}" alt="" style="width: 40px; height: 40px; position: relative; top:55px;">
+
             <h1>Coffee</h1>
         </div>
         <div class="searchbar-cart">
@@ -34,8 +35,7 @@
                 </div>
                 <div class="customer-cart-container">
                     <div class="customer-cart">
-                        <!-- <img src="{{ asset('images/Shopping Cart.png') }}" alt=""> -->
-                        <img src="assets/Shopping Cart.png" alt="">
+                        <img src="{{ asset('images/Shopping Cart.png') }}" alt=""> 
                     </div>
                 </div>
             </div>
@@ -490,7 +490,7 @@
             </div>
         </div>
     </div>
-    <script src="menu2.js"></script>
+    <script src="{{ asset('js/menu2.js') }}"></script>
 </body>
 
 </html>
